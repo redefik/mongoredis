@@ -16,3 +16,5 @@ When a `GET` request is received, the web services first searches for the book i
 To avoid memory overloading, Redis was configured with a LRU caching policy.
 
 Disclaimer: No particular attention was paid to error handling and other cross-cutting concerns, since the main purpose was  to demonstrate the usage of Redis as a cache.
+
+![A graphical overwiew of the architecture](mongoredis1.png)
